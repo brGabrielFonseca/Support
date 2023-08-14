@@ -37,10 +37,21 @@ struct ContentView: View {
                     }
                 }
             }
+            
         }
+        TabView{
+            LocalizaView()
+                .tabItem{
+                    Label("Suporte", systemImage: "list.bullet.rectangle.fill")
+                }
+        }
+        
         .searchable(text: $searchText, prompt: "Conte o que está acontecendo")
+        
     }
 }
+
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
