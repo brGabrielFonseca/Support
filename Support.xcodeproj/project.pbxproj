@@ -11,6 +11,12 @@
 		2D5A40772A8A959B00823E84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A40762A8A959B00823E84 /* ContentView.swift */; };
 		2D5A40792A8A959B00823E84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D5A40782A8A959B00823E84 /* Assets.xcassets */; };
 		2D5A407C2A8A959B00823E84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D5A407B2A8A959B00823E84 /* Preview Assets.xcassets */; };
+		2D5A40832A8A968700823E84 /* InicioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A40822A8A968700823E84 /* InicioView.swift */; };
+		2DBDDCFC2A8ABA8B0008D395 /* DispositivosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDDCFB2A8ABA8B0008D395 /* DispositivosView.swift */; };
+		2DBDDCFE2A8ABB180008D395 /* FerramentasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDDCFD2A8ABB180008D395 /* FerramentasView.swift */; };
+		2DBDDD002A8ABB6D0008D395 /* ServicosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDDCFF2A8ABB6D0008D395 /* ServicosView.swift */; };
+		2DBDDD022A8ABD410008D395 /* ProdutosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDDD012A8ABD410008D395 /* ProdutosView.swift */; };
+		2DBDDD042A8ABD640008D395 /* ProdutosBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDDD032A8ABD640008D395 /* ProdutosBack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		2D5A40762A8A959B00823E84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2D5A40782A8A959B00823E84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D5A407B2A8A959B00823E84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D5A40822A8A968700823E84 /* InicioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioView.swift; sourceTree = "<group>"; };
+		2DBDDCFB2A8ABA8B0008D395 /* DispositivosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispositivosView.swift; sourceTree = "<group>"; };
+		2DBDDCFD2A8ABB180008D395 /* FerramentasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerramentasView.swift; sourceTree = "<group>"; };
+		2DBDDCFF2A8ABB6D0008D395 /* ServicosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicosView.swift; sourceTree = "<group>"; };
+		2DBDDD012A8ABD410008D395 /* ProdutosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdutosView.swift; sourceTree = "<group>"; };
+		2DBDDD032A8ABD640008D395 /* ProdutosBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdutosBack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,9 @@
 			children = (
 				2D5A40742A8A959B00823E84 /* SupportApp.swift */,
 				2D5A40762A8A959B00823E84 /* ContentView.swift */,
+				2D5A40822A8A968700823E84 /* InicioView.swift */,
+				2DBDDD052A8ABD780008D395 /* BackEnd */,
+				2DBDDCFA2A8ABA4D0008D395 /* ViewsIniciais */,
 				2D5A40782A8A959B00823E84 /* Assets.xcassets */,
 				2D5A407A2A8A959B00823E84 /* Preview Content */,
 			);
@@ -65,6 +80,25 @@
 				2D5A407B2A8A959B00823E84 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2DBDDCFA2A8ABA4D0008D395 /* ViewsIniciais */ = {
+			isa = PBXGroup;
+			children = (
+				2DBDDCFB2A8ABA8B0008D395 /* DispositivosView.swift */,
+				2DBDDCFD2A8ABB180008D395 /* FerramentasView.swift */,
+				2DBDDCFF2A8ABB6D0008D395 /* ServicosView.swift */,
+				2DBDDD012A8ABD410008D395 /* ProdutosView.swift */,
+			);
+			path = ViewsIniciais;
+			sourceTree = "<group>";
+		};
+		2DBDDD052A8ABD780008D395 /* BackEnd */ = {
+			isa = PBXGroup;
+			children = (
+				2DBDDD032A8ABD640008D395 /* ProdutosBack.swift */,
+			);
+			path = BackEnd;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +171,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DBDDCFC2A8ABA8B0008D395 /* DispositivosView.swift in Sources */,
 				2D5A40772A8A959B00823E84 /* ContentView.swift in Sources */,
+				2D5A40832A8A968700823E84 /* InicioView.swift in Sources */,
+				2DBDDD022A8ABD410008D395 /* ProdutosView.swift in Sources */,
 				2D5A40752A8A959B00823E84 /* SupportApp.swift in Sources */,
+				2DBDDD002A8ABB6D0008D395 /* ServicosView.swift in Sources */,
+				2DBDDD042A8ABD640008D395 /* ProdutosBack.swift in Sources */,
+				2DBDDCFE2A8ABB180008D395 /* FerramentasView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
