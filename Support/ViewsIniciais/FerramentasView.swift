@@ -10,7 +10,7 @@ import SwiftUI
 struct FerramentasView: View {
     var body: some View {
         
-        Divider()
+//        Divider()
         
         VStack {
             

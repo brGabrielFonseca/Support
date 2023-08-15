@@ -11,6 +11,7 @@ struct ContentView: View {
     
     @State private var searchText = ""
     
+    
     var body: some View {
         
         NavigationStack {
@@ -38,13 +39,11 @@ struct ContentView: View {
                 }
             }
             
+//            
+            
         }
-        TabView{
-            LocalizaView()
-                .tabItem{
-                    Label("Suporte", systemImage: "list.bullet.rectangle.fill")
-                }
-        }
+        
+       
         
         .searchable(text: $searchText, prompt: "Conte o que está acontecendo")
         

@@ -10,6 +10,8 @@ import SwiftUI
 struct ProdutosView: View {
     var body: some View {
         
+        Divider()
+        
         HStack {
             Text("Mais produtos")
                 .font(.title2)
@@ -20,13 +22,14 @@ struct ProdutosView: View {
             Image(systemName: "chevron.right")
             
             
-        }.padding(.trailing, 160)
+        }
+        .padding(.trailing, 160)
         
         NavigationView {
             
             
                 
-            ScrollView (.horizontal){
+            ScrollView (.horizontal, showsIndicators: false){
                 HStack{
                         ForEach(0 ..< produtos.count, id: \.self){ index in
                         ZStack {
@@ -46,6 +49,8 @@ struct ProdutosView: View {
                                 Text(produtos[index].nome)
                                     .font(.title3)
                                     .fontWeight(.semibold)
+                                    .frame(width: 80)
+                                    .lineLimit(1)
                             }
                         }
                             
@@ -63,6 +68,6 @@ struct ProdutosView: View {
 
 struct ProdutosView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ProdutosView()
     }
 }

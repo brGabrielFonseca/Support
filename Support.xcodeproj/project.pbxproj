@@ -14,9 +14,13 @@
 		2DBDDCFC2A8ABA8B0008D395 /* DispositivosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDDCFB2A8ABA8B0008D395 /* DispositivosView.swift */; };
 		2DBDDCFE2A8ABB180008D395 /* FerramentasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDDCFD2A8ABB180008D395 /* FerramentasView.swift */; };
 		2DBDDD002A8ABB6D0008D395 /* ServicosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDDCFF2A8ABB6D0008D395 /* ServicosView.swift */; };
-		2DBDDD022A8ABD410008D395 /* ProdutosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDDD012A8ABD410008D395 /* ProdutosView.swift */; };
 		2DBDDD042A8ABD640008D395 /* ProdutosBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDDD032A8ABD640008D395 /* ProdutosBack.swift */; };
 		2DBDDD072A8AC8AC0008D395 /* LocalizaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDDD062A8AC8AC0008D395 /* LocalizaView.swift */; };
+		2DBDDD0B2A8BECD70008D395 /* SheetBuscaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDDD0A2A8BECD70008D395 /* SheetBuscaView.swift */; };
+		2DBDDD0D2A8BECE30008D395 /* SheetListaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDDD0C2A8BECE30008D395 /* SheetListaView.swift */; };
+		2DBDDD0F2A8BF0800008D395 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDDD0E2A8BF0800008D395 /* MainView.swift */; };
+		2DBDDD112A8BF2D30008D395 /* AtividadeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDDD102A8BF2D30008D395 /* AtividadeView.swift */; };
+		2DE2F4732A8C161800F9F5C2 /* ProdutosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2F4722A8C161800F9F5C2 /* ProdutosView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,9 +32,13 @@
 		2DBDDCFB2A8ABA8B0008D395 /* DispositivosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispositivosView.swift; sourceTree = "<group>"; };
 		2DBDDCFD2A8ABB180008D395 /* FerramentasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerramentasView.swift; sourceTree = "<group>"; };
 		2DBDDCFF2A8ABB6D0008D395 /* ServicosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicosView.swift; sourceTree = "<group>"; };
-		2DBDDD012A8ABD410008D395 /* ProdutosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdutosView.swift; sourceTree = "<group>"; };
 		2DBDDD032A8ABD640008D395 /* ProdutosBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdutosBack.swift; sourceTree = "<group>"; };
 		2DBDDD062A8AC8AC0008D395 /* LocalizaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizaView.swift; sourceTree = "<group>"; };
+		2DBDDD0A2A8BECD70008D395 /* SheetBuscaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetBuscaView.swift; sourceTree = "<group>"; };
+		2DBDDD0C2A8BECE30008D395 /* SheetListaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetListaView.swift; sourceTree = "<group>"; };
+		2DBDDD0E2A8BF0800008D395 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		2DBDDD102A8BF2D30008D395 /* AtividadeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtividadeView.swift; sourceTree = "<group>"; };
+		2DE2F4722A8C161800F9F5C2 /* ProdutosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdutosView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +73,7 @@
 			children = (
 				2D5A40742A8A959B00823E84 /* SupportApp.swift */,
 				2D5A40762A8A959B00823E84 /* ContentView.swift */,
+				2DBDDD0E2A8BF0800008D395 /* MainView.swift */,
 				2DBDDD052A8ABD780008D395 /* BackEnd */,
 				2DBDDCFA2A8ABA4D0008D395 /* ViewsIniciais */,
 				2D5A40782A8A959B00823E84 /* Assets.xcassets */,
@@ -87,8 +96,8 @@
 				2DBDDCFB2A8ABA8B0008D395 /* DispositivosView.swift */,
 				2DBDDCFD2A8ABB180008D395 /* FerramentasView.swift */,
 				2DBDDCFF2A8ABB6D0008D395 /* ServicosView.swift */,
-				2DBDDD012A8ABD410008D395 /* ProdutosView.swift */,
-				2DBDDD062A8AC8AC0008D395 /* LocalizaView.swift */,
+				2DE2F4722A8C161800F9F5C2 /* ProdutosView.swift */,
+				2DBDDD122A8BF31E0008D395 /* Localizacao */,
 			);
 			path = ViewsIniciais;
 			sourceTree = "<group>";
@@ -99,6 +108,25 @@
 				2DBDDD032A8ABD640008D395 /* ProdutosBack.swift */,
 			);
 			path = BackEnd;
+			sourceTree = "<group>";
+		};
+		2DBDDD122A8BF31E0008D395 /* Localizacao */ = {
+			isa = PBXGroup;
+			children = (
+				2DBDDD062A8AC8AC0008D395 /* LocalizaView.swift */,
+				2DBDDD0A2A8BECD70008D395 /* SheetBuscaView.swift */,
+				2DBDDD0C2A8BECE30008D395 /* SheetListaView.swift */,
+				2DBDDD132A8BF33E0008D395 /* Atividade */,
+			);
+			path = Localizacao;
+			sourceTree = "<group>";
+		};
+		2DBDDD132A8BF33E0008D395 /* Atividade */ = {
+			isa = PBXGroup;
+			children = (
+				2DBDDD102A8BF2D30008D395 /* AtividadeView.swift */,
+			);
+			path = Atividade;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,13 +199,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DBDDD0F2A8BF0800008D395 /* MainView.swift in Sources */,
 				2DBDDCFC2A8ABA8B0008D395 /* DispositivosView.swift in Sources */,
 				2D5A40772A8A959B00823E84 /* ContentView.swift in Sources */,
 				2DBDDD072A8AC8AC0008D395 /* LocalizaView.swift in Sources */,
-				2DBDDD022A8ABD410008D395 /* ProdutosView.swift in Sources */,
+				2DBDDD112A8BF2D30008D395 /* AtividadeView.swift in Sources */,
 				2D5A40752A8A959B00823E84 /* SupportApp.swift in Sources */,
 				2DBDDD002A8ABB6D0008D395 /* ServicosView.swift in Sources */,
+				2DBDDD0B2A8BECD70008D395 /* SheetBuscaView.swift in Sources */,
+				2DE2F4732A8C161800F9F5C2 /* ProdutosView.swift in Sources */,
 				2DBDDD042A8ABD640008D395 /* ProdutosBack.swift in Sources */,
+				2DBDDD0D2A8BECE30008D395 /* SheetListaView.swift in Sources */,
 				2DBDDCFE2A8ABB180008D395 /* FerramentasView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
