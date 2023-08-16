@@ -21,6 +21,9 @@
 		2DBDDD0F2A8BF0800008D395 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDDD0E2A8BF0800008D395 /* MainView.swift */; };
 		2DBDDD112A8BF2D30008D395 /* AtividadeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDDD102A8BF2D30008D395 /* AtividadeView.swift */; };
 		2DE2F4732A8C161800F9F5C2 /* ProdutosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2F4722A8C161800F9F5C2 /* ProdutosView.swift */; };
+		2DE2F4752A8D38BC00F9F5C2 /* IphoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2F4742A8D38BC00F9F5C2 /* IphoneView.swift */; };
+		2DE2F4772A8D3FB800F9F5C2 /* SheetSuporteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2F4762A8D3FB800F9F5C2 /* SheetSuporteView.swift */; };
+		2DE2F4792A8D585300F9F5C2 /* IphoneBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2F4782A8D585300F9F5C2 /* IphoneBack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +42,9 @@
 		2DBDDD0E2A8BF0800008D395 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		2DBDDD102A8BF2D30008D395 /* AtividadeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtividadeView.swift; sourceTree = "<group>"; };
 		2DE2F4722A8C161800F9F5C2 /* ProdutosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdutosView.swift; sourceTree = "<group>"; };
+		2DE2F4742A8D38BC00F9F5C2 /* IphoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IphoneView.swift; sourceTree = "<group>"; };
+		2DE2F4762A8D3FB800F9F5C2 /* SheetSuporteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetSuporteView.swift; sourceTree = "<group>"; };
+		2DE2F4782A8D585300F9F5C2 /* IphoneBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IphoneBack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				2DBDDCFB2A8ABA8B0008D395 /* DispositivosView.swift */,
+				2DE2F4762A8D3FB800F9F5C2 /* SheetSuporteView.swift */,
+				2DE2F4742A8D38BC00F9F5C2 /* IphoneView.swift */,
 				2DBDDCFD2A8ABB180008D395 /* FerramentasView.swift */,
 				2DBDDCFF2A8ABB6D0008D395 /* ServicosView.swift */,
 				2DE2F4722A8C161800F9F5C2 /* ProdutosView.swift */,
@@ -106,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				2DBDDD032A8ABD640008D395 /* ProdutosBack.swift */,
+				2DE2F4782A8D585300F9F5C2 /* IphoneBack.swift */,
 			);
 			path = BackEnd;
 			sourceTree = "<group>";
@@ -202,7 +211,9 @@
 				2DBDDD0F2A8BF0800008D395 /* MainView.swift in Sources */,
 				2DBDDCFC2A8ABA8B0008D395 /* DispositivosView.swift in Sources */,
 				2D5A40772A8A959B00823E84 /* ContentView.swift in Sources */,
+				2DE2F4752A8D38BC00F9F5C2 /* IphoneView.swift in Sources */,
 				2DBDDD072A8AC8AC0008D395 /* LocalizaView.swift in Sources */,
+				2DE2F4772A8D3FB800F9F5C2 /* SheetSuporteView.swift in Sources */,
 				2DBDDD112A8BF2D30008D395 /* AtividadeView.swift in Sources */,
 				2D5A40752A8A959B00823E84 /* SupportApp.swift in Sources */,
 				2DBDDD002A8ABB6D0008D395 /* ServicosView.swift in Sources */,
@@ -211,6 +222,7 @@
 				2DBDDD042A8ABD640008D395 /* ProdutosBack.swift in Sources */,
 				2DBDDD0D2A8BECE30008D395 /* SheetListaView.swift in Sources */,
 				2DBDDCFE2A8ABB180008D395 /* FerramentasView.swift in Sources */,
+				2DE2F4792A8D585300F9F5C2 /* IphoneBack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

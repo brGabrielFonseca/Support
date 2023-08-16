@@ -9,8 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var searchText = ""
-    
+    @State var showSheetView = false
     
     var body: some View {
         
@@ -18,8 +17,36 @@ struct ContentView: View {
             ScrollView{
                 
                 VStack {
-                    Text("\(searchText)")
-                        .navigationTitle("Suporte")
+                    ZStack{
+                        
+                        Button(action: {
+                            self.showSheetView.toggle()
+                        }) {
+                            
+                            RoundedRectangle(cornerRadius: 8)
+                                .foregroundColor(Color("geral"))
+                                .frame(width: 360, height: 40)
+                                .navigationTitle("Suporte")
+                            
+                        }.sheet(isPresented: $showSheetView) {
+                            SheetSuporteView()
+                            
+                        }
+                        
+                        HStack{
+                            
+                            Text("Conte o que está acontecendo")
+                                .foregroundColor(.gray)
+                                .font(.system(size: 18))
+                                .padding(.trailing, 50)
+                            
+                            Image(systemName: "mic.fill")
+                                .padding(.leading)
+                                .foregroundColor(.gray)
+                        }
+                        
+                    }
+                    
                     DispositivosView()
                     FerramentasView()
                     ServicosView()
@@ -34,21 +61,15 @@ struct ContentView: View {
                         Image("memojiconta")
                             .resizable()
                             .scaledToFit()
-                            .frame(width:60, height: 50)
+                            .frame(width:40, height: 40)
                     }
                 }
             }
             
-//            
-            
         }
-        
-       
-        
-        .searchable(text: $searchText, prompt: "Conte o que está acontecendo")
-        
     }
 }
+
 
 
 struct ContentView_Previews: PreviewProvider {

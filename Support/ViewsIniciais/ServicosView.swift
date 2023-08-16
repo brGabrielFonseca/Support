@@ -13,6 +13,7 @@ struct ServicosView: View {
         
         HStack {
             Text("Meus serviços")
+//                .padding(.trailing, 30)
                 .font(.title2)
                 .fontWeight(.semibold)
             
@@ -21,7 +22,7 @@ struct ServicosView: View {
             Image(systemName: "chevron.right")
             
             
-        } .padding(.trailing, 160)
+        } .padding(.trailing, 190)
         
         ZStack {
             RoundedRectangle(cornerRadius: 12)
@@ -49,6 +50,7 @@ struct ServicosView: View {
                     .font(.body)
                     .foregroundColor(.gray)
             }
+            
         } .padding(.trailing, 150)
         
     }
@@ -56,6 +58,6 @@ struct ServicosView: View {
 
 struct ServicosView_Previews: PreviewProvider {
     static var previews: some View {
-        ServicosView()
+        MainView()
     }
 }

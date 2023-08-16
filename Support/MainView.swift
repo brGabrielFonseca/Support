@@ -10,21 +10,23 @@ import SwiftUI
 struct MainView: View {
     var body: some View {
         TabView {
-            ContentView()
-                .tabItem {
-                    Label("Suporte", systemImage: "square.split.2x2.fill")
-                }
-            
-            LocalizaView()
-                .tabItem {
-                    Label("Localizações", systemImage: "mappin.and.ellipse")
-                }
-            
-            AtividadeView()
-                .tabItem {
-                    Label("Atividade", systemImage: "clock")
-                }
-            
+                
+                ContentView()
+                    .tabItem {
+                        Label("Suporte", systemImage: "square.split.2x2.fill")
+                    }
+                
+                LocalizaView()
+                    .tabItem {
+                        Label("Localizações", systemImage: "mappin.and.ellipse")
+                    }
+                    .toolbar(.visible, for: .tabBar)
+                    .toolbarBackground(Color.white, for: .tabBar)
+                
+                AtividadeView()
+                    .tabItem {
+                        Label("Atividade", systemImage: "clock")
+                    }
         }
     }
 }

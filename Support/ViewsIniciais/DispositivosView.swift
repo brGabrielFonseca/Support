@@ -23,7 +23,6 @@ struct DispositivosView: View {
             
             
         } .padding(.trailing, 160)
-        //                Spacer()
         
         
         
@@ -31,11 +30,17 @@ struct DispositivosView: View {
         ScrollView (.horizontal, showsIndicators: false){
             HStack {
                 ZStack {
-                    RoundedRectangle(cornerRadius: 12)
-                        .fill(Color.init(red: 0.700, green: 0.700, blue: 0.700))
-                        .opacity(0.2)
-                        .frame(width: 200, height: 200)
-                        .padding()
+                    
+                    NavigationLink {
+                        IphoneView()
+                    } label: {
+                        
+                        RoundedRectangle(cornerRadius: 12)
+                            .fill(Color.init(red: 0.700, green: 0.700, blue: 0.700))
+                            .opacity(0.2)
+                            .frame(width: 200, height: 200)
+                            .padding()
+                    }
                     
                     VStack{
                         

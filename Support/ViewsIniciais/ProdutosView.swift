@@ -23,7 +23,7 @@ struct ProdutosView: View {
             
             
         }
-        .padding(.trailing, 160)
+        .padding(.trailing, 190)
         
         NavigationView {
             
@@ -33,11 +33,12 @@ struct ProdutosView: View {
                 HStack{
                         ForEach(0 ..< produtos.count, id: \.self){ index in
                         ZStack {
+                        
                             RoundedRectangle(cornerRadius: 12)
                                 .fill(Color.init(red: 0.700, green: 0.700, blue: 0.700))
                                 .opacity(0.2)
                                 .frame(width: 100, height: 100)
-//                                .padding()
+                                .padding(.horizontal, -20)
                             
                             VStack{
                                 
@@ -52,7 +53,10 @@ struct ProdutosView: View {
                                     .frame(width: 80)
                                     .lineLimit(1)
                             }
+                            
                         }
+                        .padding(.leading, 30)
+                        
                             
                     }
                     
@@ -68,6 +72,6 @@ struct ProdutosView: View {
 
 struct ProdutosView_Previews: PreviewProvider {
     static var previews: some View {
-        ProdutosView()
+        MainView()
     }
 }
